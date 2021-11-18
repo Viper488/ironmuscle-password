@@ -5,13 +5,17 @@ import {
   Switch,
   Route
 } from "react-router-dom";
-import Home from "./Home";
+import Password from "./Password";
+import End from "./End";
+import Email from "./Email";
 class App extends React.Component{
   render() {
     return (
         <Router>
             <Switch>
-              <Route path="/:id" component={Home} />
+              <Route path="/pass/:id" component={Password} />
+              <Route path="/pass" component={End} />
+              <Route path="/email/:id" component={Email} />
             </Switch>
         </Router>
     );

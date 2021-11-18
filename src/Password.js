@@ -1,4 +1,5 @@
 import React from "react";
+import { useHistory } from 'react-router-dom';
 import Copyright from "./components/Copyright";
 import Avatar from '@mui/material/Avatar';
 import Button from '@mui/material/Button';
@@ -11,7 +12,9 @@ import Container from '@mui/material/Container';
 import {createTheme, ThemeProvider} from '@mui/material/styles';
 import {changePassword} from "./Networking";
 const theme = createTheme()
-function Home(props) {
+
+function Password(props) {
+    const history = useHistory();
     const handleSubmit = (event) => {
         event.preventDefault();
         const data = new FormData(event.currentTarget);
@@ -21,12 +24,9 @@ function Home(props) {
         let confirmPassword = data.get('confirmPassword');
         if(validatePassword(password, confirmPassword))
             changePassword(token, password).then(response => {
-                console.log(response.status)
-                if(response.status === 200) {
-                    alert('Password changed you can now log in');
-                } else {
-                    alert(response.data.message);
-                }
+                history.push('/pass');
+            }).catch(error => {
+                alert(error.data.message);
             })
     };
 
@@ -98,4 +98,4 @@ function Home(props) {
         );
 }
 
-export default Home
+export default Password

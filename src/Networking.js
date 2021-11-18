@@ -9,13 +9,17 @@ export const changePassword = async (token, password) => {
             return response;
         })
         .catch(error => {
-            console.log(error);
-            console.log(error.response.status);
-            console.log(error.response.data);
+            throw error;
+        });
+};
 
-            return {
-                status: error.response.status,
-                data: error.response.data,
-            };
+export const confirmEmail = async token => {
+    return await axios
+        .get(baseUrl + '/registration/confirm?token=' + token)
+        .then(response => {
+            return response;
+        })
+        .catch(error => {
+            throw error;
         });
 };

@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a1510146-2ba8-484c-98cc-23b097976d00" name="Default Changelist" comment="material design" />
+    <list default="true" id="a1510146-2ba8-484c-98cc-23b097976d00" name="Default Changelist" comment="reset password finish screen, confirm email screen">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -92,6 +94,7 @@
       <workItem from="1633168160242" duration="653000" />
       <workItem from="1633253614698" duration="3065000" />
       <workItem from="1633981220451" duration="143000" />
+      <workItem from="1635924153693" duration="5689000" />
     </task>
     <task id="LOCAL-00001" summary="simple reset password web page">
       <created>1632671578339</created>
@@ -114,7 +117,21 @@
       <option name="project" value="LOCAL" />
       <updated>1633981248066</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="material design">
+      <created>1635924184625</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1635924184625</updated>
+    </task>
+    <task id="LOCAL-00005" summary="reset password finish screen, confirm email screen">
+      <created>1637265669033</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1637265669033</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -135,6 +152,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="simple reset password web page" />
     <MESSAGE value="material design" />
-    <option name="LAST_COMMIT_MESSAGE" value="material design" />
+    <MESSAGE value="reset password finish screen, confirm email screen" />
+    <option name="LAST_COMMIT_MESSAGE" value="reset password finish screen, confirm email screen" />
   </component>
 </project>
