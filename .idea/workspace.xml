@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a1510146-2ba8-484c-98cc-23b097976d00" name="Default Changelist" comment="reset password finish screen, confirm email screen">
+      <change afterPath="$PROJECT_DIR$/src/User.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,6 +97,8 @@
       <workItem from="1633253614698" duration="3065000" />
       <workItem from="1633981220451" duration="143000" />
       <workItem from="1635924153693" duration="5689000" />
+      <workItem from="1637503106621" duration="720000" />
+      <workItem from="1637687903591" duration="3323000" />
     </task>
     <task id="LOCAL-00001" summary="simple reset password web page">
       <created>1632671578339</created>
@@ -131,7 +135,14 @@
       <option name="project" value="LOCAL" />
       <updated>1637265669033</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="reset password finish screen, confirm email screen">
+      <created>1637503202756</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1637503202756</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -8,6 +8,7 @@ import {
 import Password from "./Password";
 import End from "./End";
 import Email from "./Email";
+import User from "./User";
 class App extends React.Component{
   render() {
     return (
@@ -16,6 +17,7 @@ class App extends React.Component{
               <Route path="/pass/:id" component={Password} />
               <Route path="/pass" component={End} />
               <Route path="/email/:id" component={Email} />
+              <Route path="/user/:confirmToken/:passwordToken" component={User} />
             </Switch>
         </Router>
     );
