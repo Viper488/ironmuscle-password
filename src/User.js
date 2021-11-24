@@ -22,6 +22,7 @@ function User(props) {
             console.log(response)
         }).catch(error => {
             console.log(error);
+            console.log(error.response.data.message);
         })
     }, [props.match.params.confirmToken])
 
@@ -36,7 +37,8 @@ function User(props) {
             changePassword(passwordToken, password).then(response => {
                 history.push('/pass');
             }).catch(error => {
-                console.log(error.data.message);
+                console.log(error);
+                alert(error.response.data.message);
             })
     };
 

@@ -17,6 +17,7 @@ function End(props) {
             console.log(response)
         }).catch(error => {
             console.log(error);
+            console.log(error.response.data.message);
         })
     }, [props.match.params.id])
 

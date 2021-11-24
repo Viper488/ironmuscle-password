@@ -26,7 +26,8 @@ function Password(props) {
             changePassword(token, password).then(response => {
                 history.push('/pass');
             }).catch(error => {
-                alert(error.data.message);
+                console.log(error);
+                alert(error.response.data.message);
             })
     };
 
