@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="a1510146-2ba8-484c-98cc-23b097976d00" name="Default Changelist" comment="material design">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Email.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Email.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Networking.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Networking.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Password.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Password.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/User.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/User.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

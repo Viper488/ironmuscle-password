@@ -100,7 +100,7 @@ function User(props) {
                                 variant="contained"
                                 sx={{ mt: 3, mb: 2 }}
                             >
-                                Reset password
+                                Submit
                             </Button>
                         </Box>
                     </Box>
