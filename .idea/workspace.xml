@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a1510146-2ba8-484c-98cc-23b097976d00" name="Default Changelist" comment="email confirmation failed" />
+    <list default="true" id="a1510146-2ba8-484c-98cc-23b097976d00" name="Default Changelist" comment="email confirmation failed">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -92,6 +94,7 @@
       <workItem from="1633168160242" duration="653000" />
       <workItem from="1633253614698" duration="3065000" />
       <workItem from="1638099925565" duration="956000" />
+      <workItem from="1638122554669" duration="625000" />
     </task>
     <task id="LOCAL-00001" summary="simple reset password web page">
       <created>1632671578339</created>
@@ -121,7 +124,21 @@
       <option name="project" value="LOCAL" />
       <updated>1638121347390</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="email confirmation failed">
+      <created>1638122760331</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1638122760331</updated>
+    </task>
+    <task id="LOCAL-00006" summary="email confirmation failed">
+      <created>1638122905348</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1638122905348</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
