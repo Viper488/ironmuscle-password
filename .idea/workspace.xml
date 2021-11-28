@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a1510146-2ba8-484c-98cc-23b097976d00" name="Default Changelist" comment="finish creating account">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Email.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Email.js" afterDir="false" />
-    </list>
+    <list default="true" id="a1510146-2ba8-484c-98cc-23b097976d00" name="Default Changelist" comment="email confirmation failed" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -94,7 +91,7 @@
       <workItem from="1632913873190" duration="4712000" />
       <workItem from="1633168160242" duration="653000" />
       <workItem from="1633253614698" duration="3065000" />
-      <workItem from="1638099925565" duration="813000" />
+      <workItem from="1638099925565" duration="956000" />
     </task>
     <task id="LOCAL-00001" summary="simple reset password web page">
       <created>1632671578339</created>
@@ -117,7 +114,14 @@
       <option name="project" value="LOCAL" />
       <updated>1637778665918</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="email confirmation failed">
+      <created>1638121347390</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1638121347390</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -139,6 +143,7 @@
     <MESSAGE value="simple reset password web page" />
     <MESSAGE value="material design" />
     <MESSAGE value="finish creating account" />
-    <option name="LAST_COMMIT_MESSAGE" value="finish creating account" />
+    <MESSAGE value="email confirmation failed" />
+    <option name="LAST_COMMIT_MESSAGE" value="email confirmation failed" />
   </component>
 </project>
