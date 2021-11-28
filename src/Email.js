@@ -5,18 +5,22 @@ import Typography from '@mui/material/Typography';
 import Container from '@mui/material/Container';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 import Copyright from "./components/Copyright";
-import {useEffect} from "react";
+import {useEffect, useState} from "react";
 import {confirmEmail} from "./Networking";
 
 const theme = createTheme();
 
 function End(props) {
+    const [title, setTitle] = useState('Email verified!');
+    const [description, setDescription] = useState('Your email has been confirmed successfully.\nYou can now log in.');
     useEffect(()=>{
         let token = props.match.params.id;
         confirmEmail(token).then(response => {
             console.log(response)
         }).catch(error => {
             console.log(error);
+            setTitle('Error occurred!')
+            setDescription(error.response.data.message);
             console.log(error.response.data.message);
         })
     }, [props.match.params.id])
@@ -41,11 +45,10 @@ function End(props) {
                             color="text.primary"
                             gutterBottom
                         >
-                            Email verified!
+                            {title}
                         </Typography>
                         <Typography variant="h5" align="center" color="text.secondary" paragraph>
-                            Your email has been confirmed successfully.
-                            You can now log in.
+                            {description}
                         </Typography>
                     </Container>
                 </Box>

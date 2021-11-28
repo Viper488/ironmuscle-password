@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a1510146-2ba8-484c-98cc-23b097976d00" name="Default Changelist" comment="material design">
+    <list default="true" id="a1510146-2ba8-484c-98cc-23b097976d00" name="Default Changelist" comment="finish creating account">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/User.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/User.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Email.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Email.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,6 +94,7 @@
       <workItem from="1632913873190" duration="4712000" />
       <workItem from="1633168160242" duration="653000" />
       <workItem from="1633253614698" duration="3065000" />
+      <workItem from="1638099925565" duration="813000" />
     </task>
     <task id="LOCAL-00001" summary="simple reset password web page">
       <created>1632671578339</created>
@@ -109,7 +110,14 @@
       <option name="project" value="LOCAL" />
       <updated>1632940807275</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="finish creating account">
+      <created>1637778665918</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1637778665918</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -130,6 +138,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="simple reset password web page" />
     <MESSAGE value="material design" />
-    <option name="LAST_COMMIT_MESSAGE" value="material design" />
+    <MESSAGE value="finish creating account" />
+    <option name="LAST_COMMIT_MESSAGE" value="finish creating account" />
   </component>
 </project>
