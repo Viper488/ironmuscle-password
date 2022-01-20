@@ -1,4 +1,4 @@
-import React, {useEffect} from "react";
+import React from "react";
 import { useHistory } from 'react-router-dom';
 import Copyright from "./components/Copyright";
 import Avatar from '@mui/material/Avatar';
@@ -16,16 +16,6 @@ const theme = createTheme()
 function User(props) {
     const history = useHistory();
 
-    useEffect(()=>{
-        let confirmToken = props.match.params.confirmToken;
-        confirmEmail(confirmToken).then(response => {
-            console.log(response)
-        }).catch(error => {
-            console.log(error);
-            console.log(error.response.data.message);
-        })
-    }, [props.match.params.confirmToken])
-
     const handleSubmit = (event) => {
         event.preventDefault();
         const data = new FormData(event.currentTarget);
@@ -35,7 +25,15 @@ function User(props) {
         let confirmPassword = data.get('confirmPassword');
         if(validatePassword(password, confirmPassword))
             changePassword(passwordToken, password).then(response => {
-                history.push('/pass');
+                console.log(response);
+                let confirmToken = props.match.params.confirmToken;
+                confirmEmail(confirmToken).then(response => {
+                    console.log(response)
+                    history.push('/pass');
+                }).catch(error => {
+                    console.log(error);
+                    console.log(error.response.data.message);
+                })
             }).catch(error => {
                 console.log(error);
                 alert(error.response.data.message);

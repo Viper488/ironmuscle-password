@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a1510146-2ba8-484c-98cc-23b097976d00" name="Default Changelist" comment="email confirmation failed">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/User.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/User.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +50,7 @@
       <recent name="C:\Users\Artur\IdeaProjects\iron_muscle_password\src" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.build">
+  <component name="RunManager" selected="npm.start">
     <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -72,8 +73,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.build" />
         <item itemvalue="npm.start" />
+        <item itemvalue="npm.build" />
       </list>
     </recent_temporary>
   </component>
@@ -95,6 +96,11 @@
       <workItem from="1633253614698" duration="3065000" />
       <workItem from="1638099925565" duration="956000" />
       <workItem from="1638122554669" duration="625000" />
+      <workItem from="1638123189148" duration="2392000" />
+      <workItem from="1640607985669" duration="822000" />
+      <workItem from="1640783796225" duration="10000" />
+      <workItem from="1641659696574" duration="32000" />
+      <workItem from="1642696721796" duration="1163000" />
     </task>
     <task id="LOCAL-00001" summary="simple reset password web page">
       <created>1632671578339</created>
