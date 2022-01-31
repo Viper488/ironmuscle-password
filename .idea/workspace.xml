@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a1510146-2ba8-484c-98cc-23b097976d00" name="Default Changelist" comment="email confirmation failed">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/User.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/User.js" afterDir="false" />
-    </list>
+    <list default="true" id="a1510146-2ba8-484c-98cc-23b097976d00" name="Default Changelist" comment="first password then confirm" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -100,7 +97,7 @@
       <workItem from="1640607985669" duration="822000" />
       <workItem from="1640783796225" duration="10000" />
       <workItem from="1641659696574" duration="32000" />
-      <workItem from="1642696721796" duration="1163000" />
+      <workItem from="1642696721796" duration="1257000" />
     </task>
     <task id="LOCAL-00001" summary="simple reset password web page">
       <created>1632671578339</created>
@@ -144,7 +141,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638122905348</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="first password then confirm">
+      <created>1642698438575</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1642698438575</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -167,6 +171,7 @@
     <MESSAGE value="material design" />
     <MESSAGE value="finish creating account" />
     <MESSAGE value="email confirmation failed" />
-    <option name="LAST_COMMIT_MESSAGE" value="email confirmation failed" />
+    <MESSAGE value="first password then confirm" />
+    <option name="LAST_COMMIT_MESSAGE" value="first password then confirm" />
   </component>
 </project>
